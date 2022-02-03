@@ -11,7 +11,7 @@ console.log(userColor)
 
 
 const HTMLsaluto = document.getElementById('saluto')  
-// inizializzo una variabile prendendo const HTMLsaluto e prendo dall' html l'elemento con id saluto document.getElementById('saluto') 
+// Inizializzo la variabile const HTMLsaluto assegnadole l'elemento HTML che ha come id 'saluto' 
 // The document object represents your web page. If you want to access any element in an HTML page, you always start with accessing the document object.
 
 HTMLsaluto.innerHTML += ' ' + userName + ' ' + userSurname
@@ -25,6 +25,4 @@ HTMLcolore.innerHTML += ` ${userColor}`
 
 const HTMLpassword = document.getElementById('password')
 
-HTMLpassword.innerHTML += ` ${userName+userSurname+userColor}`
-
-
+HTMLpassword.innerHTML += ` ${userName+userSurname+userColor+27}`
