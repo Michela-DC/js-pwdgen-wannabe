@@ -1,4 +1,4 @@
-let userName = prompt('Ciao! Come ti chiami?')
+let userName = prompt('Ciao! Qual é il tuo nome?')
 // quello che l'utente scriverà viene salvato dentro userName
 console.log(userName) 
 // stampo nella console cosa c'é dentro a userName per verificarne il contenuto
