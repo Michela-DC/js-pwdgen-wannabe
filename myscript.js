@@ -25,4 +25,5 @@ HTMLcolore.innerHTML += ` ${userColor}`
 
 let HTMLpassword = document.getElementById('password')
 
-HTMLpassword.innerHTML += ` ${userName+userSurname+userColor+27}`
+HTMLpassword.innerHTML += ` ${userName}${userSurname}${userColor}27`
+
